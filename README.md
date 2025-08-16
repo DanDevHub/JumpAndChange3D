@@ -17,6 +17,8 @@ The player controls a running character that must **jump on the correct colored 
   <img width="503" height="376" alt="Image" src="https://github.com/user-attachments/assets/dde1b568-a865-409c-a5d3-557ab1c90e68" />
 </p>
 
+---
+
 ## Installation & Setup (Android)
 1. Download the latest **JumpAndChange3D APK** from the release page.  
 2. Transfer the APK to your Android smartphone (or download it directly on the device).  
