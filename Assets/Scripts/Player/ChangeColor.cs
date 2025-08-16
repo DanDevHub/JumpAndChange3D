@@ -1,0 +1,43 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ChangeColor : MonoBehaviour
+{
+    public Material[] material;
+    Renderer rend;
+
+    public static string playercolor;
+    // Start is called before the first frame update
+    void Start()
+    {
+        rend = GetComponent<Renderer>();
+        rend.enabled = true;
+        rend.sharedMaterial = material[0];
+        playercolor = "Red";
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        SwitchPlayerColor();
+    }
+
+    private void SwitchPlayerColor()
+    {
+        if(Input.GetMouseButtonDown(0) && Input.mousePosition.x < Screen.width / 2)
+        {
+            if (rend.sharedMaterial == material[0])
+            {
+                playercolor = "Yellow";
+                rend.sharedMaterial = material[1];
+            }else if(rend.sharedMaterial == material[1])
+            {
+                playercolor = "Red";
+                rend.sharedMaterial = material[0];
+            }
+        }
+    }
+
+
+}
