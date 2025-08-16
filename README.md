@@ -1,11 +1,13 @@
 # JumpAndChange3D
 
 **JumpAndChange3D** is a fast-paced 3D reaction and platformer game for mobile, built with Unity.  
-The player controls a running character that must **jump on the correct colored blocks** to survive.  
+The player controls a running character that must **jump on the correct colored blocks** and **change color in time** to survive.  
 
-- ✅ Always land on the right color to stay alive  
+- 🎨 Tap the **left side of the screen** to switch your character’s color (yellow ↔ red)  
 - 🏃 The character runs automatically  
-- 🦘 Single and double jump mechanics  
+- 🦘 Tap the **right side** to jump (single or double jump)  
+- 🟡🔴 Land only on **yellow or red blocks** matching your color  
+- ⚠️ Beware of **gray blocks** – touching them means game over  
 - 🎯 Goal: Stay alive as long as possible and beat your high score  
 
 ---
@@ -28,9 +30,10 @@ The player controls a running character that must **jump on the correct colored 
 ---
 
 ## Controls
-- **Tap** → Jump  
-- **Double Tap** → Double jump  
-- Hold for a **longer jump**  
+- **Tap right side** → Jump  
+- **Double tap right side** → Double jump  
+- **Hold right side** → Longer jump  
+- **Tap left side** → Change character color (yellow ↔ red)  
 
 ---
 
